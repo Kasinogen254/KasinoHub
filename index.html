@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    <title>Cornhub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    <header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark " class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img class="logo" src="logo.png" alt="" width="120" height="80"  >
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Videos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Latest</a></li>
+                  <li><a class="dropdown-item" href="#">Oldest</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Upcoming</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      </header>
+<main>
+  <div class="all">
+    <h5> Wanna watch</h5>
+    <img  src="despicable-me-minions.gif" width="700px" alt="img">
+    <div class="link">
+    <h5>Click the link below</h5> 
+    <button id="watch">
+      <span class="btn-txt">Watch</span>
+    </button>
+   
+        </div>
+    </div>
+    <h1 id="sample"></h1>
+    <div id="vidSection">
+        <h1>Latest Videos 2024</h1>
+        <div class="videos">
+            <img class="vid" src="Daffy Duck.gif">
+            <img class="vid" src="ted.gif">
+            <img class="vid" src="stewie.gif">
+            <img class="vid" src="corn.gif">
+            <img class="vid" src="tina-belcher.gif">
+            <img class="vid" src="candy-ted.gif">
+            <img class="vid" src="dance-moves.gif">
+        </div>
+    </div>
+
+    <div id="under">
+        <img class="vid1" src="underage.gif" alt="img">
+        <h1>What you doin buoy!!!! Go do your Homework &#128514 &#128514</h1>
+        <img class="vid1" src="get out.gif" alt="">
+    </div>
+</main>
+<footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2 class="logo-text">Cornhub.com</h2>
+                <p>
+                  Think you know what you’re getting into? Think again! Here, we bring you “content” that will leave you scratching your head, chuckling, and maybe questioning your choices—but all in good fun. Don’t take life (or this site) too seriously; it’s all about the giggles and unexpected twists. 
+                </p>
+                <div class="contact">
+                    <span><i class="fas fa-phone"></i> &nbsp; 123-456-789</span>
+                    <span><i class="fas fa-envelope"></i> &nbsp; info@cornhub.com</span>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact-form">
+                <h2>Contact Us</h2>
+                <form action="#" method="post">
+                    <input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
+                    <textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
+                    <button type="submit" class="btn btn-big contact-btn">
+                        <i class="fas fa-envelope"></i>
+                        Send
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Cornhub.com | All rights reserved</p>
+        </div>
+        <div class="socials">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+</footer>
+<script src="index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script></body>
+</html>

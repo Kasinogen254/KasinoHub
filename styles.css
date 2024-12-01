@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(38, 46, 56);
+    
+    min-height: 100svh;
+}
+header{
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    z-index: 100px;
+}
+main{
+    color: white;
+    font-family: "roboto", sans-serif;
+    padding: 130px 100px;
+    flex: 1 0 auto;
+    
+    
+}
+.logo{
+    border-radius: 11px;
+}
+.navbar .nav-link:hover {
+    color: #ff6600 !important;
+    scale: 1.05;
+}
+ 
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Sour Gummy" sans-serif;
+    margin-bottom: 100px;
+}
+.all h5{
+    padding: 20px;
+}
+main button {
+    height: 50px;
+    width: 200px;
+    position: relative;
+    background-color: rgba(72, 221, 72, 0.884);
+    cursor: pointer;
+    border: 2px solid #0ecce6e3;
+    overflow: hidden;
+    border-radius: 30px;
+    color: #ffffff;
+    transition: all 0.5s ease-in-out;
+  }
+  
+main .btn-txt {
+    z-index: 1;
+    font-size: 20px;
+    font-family: "poppins" sans-serif;
+    font-weight: 800;
+    letter-spacing: 4px;
+  }
+  
+  #watch::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.5s ease-in-out;
+    background-color: #2074d4ce;
+    border-radius: 30px;
+    visibility: hidden;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+  }
+  
+main button:hover {
+    box-shadow: 5px 5px 200px #c2e914;
+    color: #fff;
+    border: none;
+    scale: 1.05;
+  }
+  
+  #watch:hover::after {
+    visibility: visible;
+    transform: scale(100) translateX(2px);
+  }
+  #vidSection, #under{
+    display: none;
+  }
+  #vidSection h1{
+    text-align: center;
+    padding: 30px;
+    
+  }
+  .vid{
+    width: 100%;
+    aspect-ratio: 3/2;
+    border-radius: 25px;
+    transition: all 0.25s ease-in;
+  }
+  .vid:hover{
+    scale: 1.1;
+  }
+  .videos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+  }
+  .vid1{
+    width: 50%;
+    aspect-ratio: 3/2;
+    border-radius: 25px;
+    transition: all 0.25s ease-in;
+  }
+  .vid1:hover{
+    scale: 1.1;
+  }
+  #under h1{
+    font-family: "poppins" sans-serif;
+    padding:40px 0px;
+    font-size: 2rem;
+    font-weight: 700;
+  }
